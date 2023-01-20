@@ -1,0 +1,28 @@
+.anim,.anim1{
+	
+	    margin: 10px auto;
+	    display: flex;
+	    width: 200px;
+	    height: 200px;
+	    background-color: aquamarine;
+	    justify-content:center;
+	    align-items: center;
+	    text-align: center;
+}
+
+.anim:hover{
+	transform: rotate3d(0,1,1,49deg);
+	transition: 1s;
+}
+
+.anim1:hover{
+	transform: rotateY(90deg);
+	transition: 0.5s;
+	
+}
+.anim1{
+	transform-origin: right top;
+
+	transition: 1s;
+	
+}

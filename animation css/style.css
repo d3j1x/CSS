@@ -1,0 +1,68 @@
+*{
+    background-color: burlywood;
+  
+    margin: 20px auto;
+}
+body{
+    height: 15000px;
+}
+
+.anim,.anim1,.anim4,.anim5,.anim6,.anim7{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.anim3{
+    
+    display: flex;
+    align-items: center;
+}
+
+
+.anim:hover{
+    transform: scale(2);
+    transition: 3s;
+    
+}
+
+.anim1:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+    
+}
+
+.image{
+    width: 300px;
+    transition: 1s;
+}
+.image:hover{
+    transform: scale(1.5) rotate(50deg);
+    opacity: 0.6;
+}
+
+.anim4:hover{
+    transform: translate(100px,100px);
+    transition: 2s;
+
+}
+
+.anim5:hover{
+    transform: skew(10deg,10deg);
+    transition: 1s;
+}
+
+.anim6:hover{
+    /*syntax => matrix(scaleX,skewY,skewX,scaleY,translateX,translateY)*/
+    transform: matrix(1.2,0.2679,0,1.2,20,20);
+    transition: 2s;
+}
+
+.anim7:hover{
+    transform-origin: 100% 50%;
+    transform: rotate(360deg);
+    transition: 5s;
+}

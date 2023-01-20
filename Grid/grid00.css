@@ -1,0 +1,18 @@
+.container{
+  display: grid;
+  /*  grid-template-columns: 50% 50%; */
+  /*  grid-template-columns: 33% 33% 33%; */
+  /*  grid-template-columns: 100px 100px 100px; */
+    grid-template-columns: 1fr 1fr 1fr;
+  /*  grid-template-columns: repeat(2,1fr) */
+  
+
+
+
+
+}
+
+.box{
+  background: blue;
+  text-align: center;
+}
